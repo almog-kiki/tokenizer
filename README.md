@@ -35,18 +35,17 @@ header:{
 2. HTTP POST    |   '/api/v1/tokenizer/getWordsListByUrl';
   ```
 body: {
-        "url":"http://www.gutenberg.org/cache/epub/10/pg10.txt",
+        "url": "http://www.gutenberg.org/cache/epub/10/pg10.txt",
     }
 ```
-
-3. HTTP POST    |   '/api/v1/tokenizer/getWordsListByUrlAndWord';
-```
-
-body: {
-        "url":"http://www.gutenberg.org/cache/epub/10/pg10.txt",
-        "word":"the"
-    }
-```
+- you can send also optinal properties: "word" and "isCaseSensitive".
+    ```
+    body: {
+            "url": "http://www.gutenberg.org/cache/epub/10/pg10.txt",
+            "word": "the",
+            "isCaseSensitive": true
+        }
+    ```
 
 # Package
 https://www.npmjs.com/package/line-by-line
