@@ -38,7 +38,7 @@ body: {
         "url": "http://www.gutenberg.org/cache/epub/10/pg10.txt",
     }
 ```
-- you can send also optinal properties: "word" and "isCaseSensitive".
+- you can send also optional properties: "word" and "isCaseSensitive".
     ```
     body: {
             "url": "http://www.gutenberg.org/cache/epub/10/pg10.txt",
